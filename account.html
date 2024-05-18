@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChefMate Account Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking to the CSS file -->
+</head>
+<body>
+    <header>
+        <h1>ChefMate</h1>
+        <nav>
+            <a href="C:\Users\goom2\OneDrive\Desktop\אתר CHEFMATE\עמוד בית\freelancer\index.html">Home</a>
+            <a href="recipes.html">Recipes</a>
+            <a href="account.html">My Account</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="account-details">
+            <h2>My Account</h2>
+            <form id="account-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" value="your_username" disabled>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="your_email@example.com" disabled>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" value="********" disabled>
+                <button type="button" onclick="changePassword()">Change Password</button>
+                
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" value="YourFirstName" disabled>
+                
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" value="YourLastName" disabled>
+            </form>
+        </section>
+        
+        <section class="uploaded-recipes">
+            <h2>My Uploaded Recipes</h2>
+            <ul>
+                <li>Recipe 1</li>
+                <li>Recipe 2</li>
+                <li>Recipe 3</li>
+                <!-- Add more recipes as needed -->
+            </ul>
+            <button onclick="addRecipe()">Add New Recipe</button>
+        </section>
+        
+        <section class="liked-recipes">
+            <h2>Recipes I Liked</h2>
+            <ul>
+                <li>Recipe A</li>
+                <li>Recipe B</li>
+                <li>Recipe C</li>
+                <!-- Add more liked recipes as needed -->
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-section">
+            <h3>Location</h3>
+            <p>2215 John Daniel Drive
+                Clark, MO 65243</p>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <p>Facebook | Twitter | Instagram</p>
+        </div>
+        <div class="footer-section">
+            <h3>Our Vision</h3>
+            <p>Unleashing culinary creativity, fostering connections, and building a global community around food.</p>
+        </div>
+    </footer>
+    <footer class="copyright py-4 text-center text-white">
+        <div class="container"><small class="pre-wrap">Copyright © ChefMate 2024 </small></div>
+    </footer>
+    
+    
+    
+
+    <script>
+        function changePassword() {
+            // Implement the change password functionality here
+            alert('Change password functionality to be implemented.');
+        }
+
+        function addRecipe() {
+            // Implement the add new recipe functionality here
+            alert('Add new recipe functionality to be implemented.');
+        }
+    </script>
+</body>
+</html>
